@@ -12,6 +12,7 @@ public class SetLives : MonoBehaviour
         Player3.score = 20;
         Player4.score = 20;
         Player5.score = 20;
+        Player6.score = 20;
     }
     public void ThirtyLives()
     {
@@ -20,6 +21,7 @@ public class SetLives : MonoBehaviour
         Player3.score = 30;
         Player4.score = 30;
         Player5.score = 30;
+        Player6.score = 30;
     }
     public void FourtyLives()
     {
@@ -28,5 +30,6 @@ public class SetLives : MonoBehaviour
         Player3.score = 40;
         Player4.score = 40;
         Player5.score = 40;
+        Player6.score = 40;
     }
 }

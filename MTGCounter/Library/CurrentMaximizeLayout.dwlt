@@ -143,7 +143,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1089
-    height: 364
+    height: 363
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 203
-    height: 364
+    height: 363
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 6}
@@ -198,12 +198,12 @@ MonoBehaviour:
     x: 0
     y: 92
     width: 201
-    height: 343
+    height: 342
   m_TreeViewState:
-    scrollPos: {x: 0, y: 90}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: a6fbffff00000000d8270000e2270000b4280000
+    scrollPos: {x: 0, y: 219}
+    m_SelectedIDs: 60290000
+    m_LastClickedID: 10592
+    m_ExpandedIDs: a6fbffff00000000e42700009e280000e42800004a290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -222,7 +222,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
-  - 5Player
+  - 6Player
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -243,7 +243,7 @@ MonoBehaviour:
     x: 203
     y: 0
     width: 886
-    height: 364
+    height: 363
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 2}
@@ -279,16 +279,16 @@ MonoBehaviour:
     x: 205
     y: 92
     width: 882
-    height: 343
+    height: 342
   m_SceneLighting: 0
   lastFramingTime: 164.43350060042604
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.0995014, y: 0.40669578, z: -0.08442761}
+    m_Target: {x: 2.9654503, y: -0.288334, z: -0.073607445}
     speed: 2
-    m_Value: {x: 3.0995014, y: 0.40669578, z: -0.08442761}
+    m_Value: {x: 2.9654503, y: -0.288334, z: -0.073607445}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -315,9 +315,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.391062
+    m_Target: 16.341303
     speed: 2
-    m_Value: 17.391062
+    m_Value: 16.341303
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -412,9 +412,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 364
+    y: 363
     width: 1089
-    height: 271
+    height: 272
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 12}
@@ -447,9 +447,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 456
+    y: 455
     width: 1087
-    height: 250
+    height: 251
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -472,9 +472,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5a270000
-    m_LastClickedID: 10074
-    m_ExpandedIDs: 0000000012270000ffffff7f
+    m_SelectedIDs: 5e270000
+    m_LastClickedID: 10078
+    m_ExpandedIDs: 0000000014270000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012270000
+    m_ExpandedIDs: 0000000014270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -527,21 +527,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 60290000
+    m_LastClickedInstanceID: 10592
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 1aa50000703c00006c4b0000044f00000000000080260000f42500007e26000048290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Player5
-      m_OriginalName: Player5
+      m_Name: Player6
+      m_OriginalName: Player6
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10680
+      m_UserData: 10756
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
     y: 92
     width: 275
     height: 614
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 253.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 206
