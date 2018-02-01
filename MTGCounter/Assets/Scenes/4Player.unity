@@ -264,7 +264,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 30250026}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 71.55, y: -0.94999695, z: 0}
+  m_LocalPosition: {x: 71.55, y: -0.37999725, z: 0}
   m_LocalScale: {x: 0.99993825, y: 1.0000062, z: 0.9998419}
   m_Children:
   - {fileID: 1955435387}
@@ -273,8 +273,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 71.55, y: -0.95}
-  m_SizeDelta: {x: 143.1, y: 325.9}
+  m_AnchoredPosition: {x: 71.55, y: -0.38}
+  m_SizeDelta: {x: 143.1, y: 129.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30250028
 MonoBehaviour:
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 937351562}
+      - m_Target: {fileID: 1622138165}
         m_MethodName: Plus
         m_Mode: 1
         m_Arguments:
@@ -1815,7 +1815,7 @@ GameObject:
   - component: {fileID: 951620600}
   - component: {fileID: 951620599}
   m_Layer: 0
-  m_Name: scoreText1
+  m_Name: scoreText4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2092,7 +2092,7 @@ RectTransform:
   m_GameObject: {fileID: 1184897844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -71.59999, y: -0.94999695, z: 0}
-  m_LocalScale: {x: 1.0374999, y: 1, z: 1}
+  m_LocalScale: {x: 1.0374999, y: 0.3875012, z: 1}
   m_Children:
   - {fileID: 490604768}
   m_Father: {fileID: 710257278}
@@ -3238,6 +3238,47 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1590466704}
+--- !u!1 &1622138164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1622138166}
+  - component: {fileID: 1622138165}
+  m_Layer: 0
+  m_Name: Player4Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1622138165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1622138164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3382bcfa0b82549aa1eda4c4250a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoretext: {fileID: 951620599}
+--- !u!4 &1622138166
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1622138164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4985589, y: 0.19221441, z: 41.585938}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1647193924
 GameObject:
   m_ObjectHideFlags: 0
@@ -3590,7 +3631,7 @@ RectTransform:
   m_GameObject: {fileID: 1848768984}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 71.55, y: -0.94999695, z: 0}
-  m_LocalScale: {x: 0.99993825, y: 1.0000062, z: 0.9998419}
+  m_LocalScale: {x: 0.99993825, y: 0.38750362, z: 0.9998419}
   m_Children:
   - {fileID: 1043633637}
   m_Father: {fileID: 710257278}
@@ -3777,7 +3818,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1889925703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.59999, y: -0.94999695, z: 0}
+  m_LocalPosition: {x: -71.59999, y: -0.37999725, z: 0}
   m_LocalScale: {x: 1.0374999, y: 1, z: 1}
   m_Children:
   - {fileID: 1579966586}
@@ -3786,8 +3827,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -71.6, y: -0.94999}
-  m_SizeDelta: {x: 143.1, y: 325.9}
+  m_AnchoredPosition: {x: -71.6, y: -0.38}
+  m_SizeDelta: {x: 143.1, y: 129.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889925705
 MonoBehaviour:
@@ -3828,7 +3869,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 937351562}
+      - m_Target: {fileID: 1622138165}
         m_MethodName: Minus
         m_Mode: 1
         m_Arguments:

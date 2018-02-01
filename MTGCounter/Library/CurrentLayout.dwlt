@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 681, y: 471}
-  m_MaxSize: {x: 14002, y: 14021}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 3747
+  controlID: 3690
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 635
-  m_MinSize: {x: 404, y: 471}
-  m_MaxSize: {x: 10000, y: 14021}
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 3679
+  controlID: 3631
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 364
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 3680
+  controlID: 3632
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,10 +366,10 @@ MonoBehaviour:
     width: 201
     height: 343
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de3a0000
-    m_LastClickedID: 15070
-    m_ExpandedIDs: e4b3feff8673ffff5074ffff4475ffff3c76ffff2e77ffffbee4ffff28f0ffff2ef5ffff8cf6ffffa6fbffff00000000ec2e0000342f0000383a0000de3a0000
+    scrollPos: {x: 0, y: 154}
+    m_SelectedIDs: ac270000
+    m_LastClickedID: 10156
+    m_ExpandedIDs: a6fbffff00000000d427000012280000842800008e280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,14 +419,14 @@ MonoBehaviour:
     width: 882
     height: 343
   m_SceneLighting: 0
-  lastFramingTime: 540.0695766413278
+  lastFramingTime: 208.40592905548831
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.093768016, y: -0.8310248, z: 90.04883}
+    m_Target: {x: 0.47144988, y: -0.19671708, z: 90.05664}
     speed: 2
-    m_Value: {x: -0.093768016, y: -0.8310248, z: 90.04883}
+    m_Value: {x: 0.47144988, y: -0.19671708, z: 90.05664}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -453,9 +453,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 15.307368
+    m_Target: 16.088633
     speed: 2
-    m_Value: 15.307368
+    m_Value: 16.088633
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -573,18 +573,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Alejandro Isaza\Desktop\Gestion De Calidad\MTGCounter\MTGCounter
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30270000
-    m_LastClickedID: 10032
+    m_SelectedIDs: 58270000
+    m_LastClickedID: 10072
     m_ExpandedIDs: 0000000010270000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -748,7 +748,7 @@ MonoBehaviour:
     y: 92
     width: 275
     height: 614
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 253.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 206
