@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: b231eb6486b5b2f408db7b562e786345
   - enabled: 1
     path: Assets/Scenes/3Player.unity
-    guid: d09dd8ca5d5b3c64e83d37bf16e9cf07
+    guid: def1570f34617fd47816285922cf51fb
   - enabled: 1
     path: Assets/Scenes/4Player.unity
     guid: 007e75c2c4c526f419881fd045a1f48d
