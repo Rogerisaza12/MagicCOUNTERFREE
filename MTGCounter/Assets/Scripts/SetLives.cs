@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 public class SetLives : MonoBehaviour
 { 
-    int score;
-    int actualScore;
+    public static int score;
     public Text scoretext1;
     public Text scoretext2;
     public Text scoretext3;
@@ -15,10 +14,6 @@ public class SetLives : MonoBehaviour
     public Text scoretext6;
     
 
-    void Update()
-    {
-      
-    }
     public void TwentyLives()
     {
         score = 20;
@@ -34,16 +29,7 @@ public class SetLives : MonoBehaviour
         score = 40;
         SetCountText();
     }
-    public void Plus()
-    {
-        score ++;
-        SetCountText(); 
-    }
-    public void Minus()
-    {
-        score --;
-        SetCountText();
-    }
+
     public void SetCountText()
     {
         scoretext1.text = score.ToString();
