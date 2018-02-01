@@ -1,0 +1,9 @@
+TO DO LIST
+
+-Test On An Actual Mobile Device.
+-Adjust Some UI Details.
+-Get a BG.
+-Get it Prettier.
+-Dice Feature?.
+-Put It On Store.
+-Enjoy!!.
