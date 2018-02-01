@@ -270,7 +270,7 @@ RectTransform:
   m_GameObject: {fileID: 146174247}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 241.89989, y: 78, z: 0}
-  m_LocalScale: {x: 1.2841139, y: 1.1315459, z: 0.9998419}
+  m_LocalScale: {x: 1.2841139, y: 1.1881232, z: 0.9998419}
   m_Children:
   - {fileID: 1074654570}
   - {fileID: 1409498051}
@@ -695,7 +695,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1119213839}
+      - m_Target: {fileID: 1770447084}
         m_MethodName: Minus
         m_Mode: 1
         m_Arguments:
@@ -1196,7 +1196,7 @@ RectTransform:
   m_GameObject: {fileID: 710257277}
   m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
   m_LocalPosition: {x: -240, y: 0, z: 0}
-  m_LocalScale: {x: 1.0625, y: 1.1315393, z: 1}
+  m_LocalScale: {x: 1.0757809, y: 1.1315393, z: 1}
   m_Children:
   - {fileID: 2040371003}
   - {fileID: 1316134126}
@@ -1811,7 +1811,7 @@ RectTransform:
   m_GameObject: {fileID: 1184897844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -71.59999, y: -0.94999695, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0374999, y: 1, z: 1}
   m_Children:
   - {fileID: 490604768}
   m_Father: {fileID: 710257278}
@@ -2106,7 +2106,7 @@ GameObject:
   - component: {fileID: 1374320638}
   - component: {fileID: 1374320637}
   m_Layer: 0
-  m_Name: MinusBtn
+  m_Name: PlusBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2301,7 +2301,7 @@ GameObject:
   - component: {fileID: 1409498053}
   - component: {fileID: 1409498052}
   m_Layer: 0
-  m_Name: scoreText2
+  m_Name: scoreText3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2527,7 +2527,7 @@ RectTransform:
   m_GameObject: {fileID: 1520723163}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 241.9, y: -77.3, z: 0}
-  m_LocalScale: {x: 1.2840517, y: 1.1315464, z: 0.9998419}
+  m_LocalScale: {x: 1.2840517, y: 1.1881238, z: 0.9998419}
   m_Children:
   - {fileID: 1502695758}
   - {fileID: 1699365444}
@@ -2973,6 +2973,47 @@ Transform:
   m_PrefabParentObject: {fileID: 4383928006396134, guid: d26887f502af39847953eaab324c77af,
     type: 2}
   m_PrefabInternal: {fileID: 1727731918}
+--- !u!1 &1770447083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1770447085}
+  - component: {fileID: 1770447084}
+  m_Layer: 0
+  m_Name: Player3Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1770447084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1770447083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb56082155e38af4992e98a7ef1fea46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoretext: {fileID: 1409498052}
+--- !u!4 &1770447085
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1770447083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4985589, y: 0.19221441, z: 41.585938}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1848768984
 GameObject:
   m_ObjectHideFlags: 0
@@ -3078,7 +3119,7 @@ GameObject:
   - component: {fileID: 1865946221}
   - component: {fileID: 1865946220}
   m_Layer: 0
-  m_Name: PlusBtn
+  m_Name: MinusBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3454,7 +3495,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1119213839}
+      - m_Target: {fileID: 1770447084}
         m_MethodName: Plus
         m_Mode: 1
         m_Arguments:

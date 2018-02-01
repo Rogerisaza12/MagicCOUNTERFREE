@@ -1,16 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Player3 : MonoBehaviour {
+public class Player3 : MonoBehaviour
+{
+    public static int score;
+    public Text scoretext;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Update()
+    {
+        SetCountText();
+    }
+
+    public void Plus()
+    {
+        score++;
+        SetCountText();
+    }
+    public void Minus()
+    {
+        score--;
+        SetCountText();
+
+    }
+    public void SetCountText()
+    {
+        scoretext.text = score.ToString();
+    }
 }
