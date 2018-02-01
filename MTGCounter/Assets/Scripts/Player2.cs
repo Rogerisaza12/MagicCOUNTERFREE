@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player1 : MonoBehaviour
+public class Player2 : MonoBehaviour
 {
     public static int score;
     public Text scoretext;
@@ -22,7 +22,7 @@ public class Player1 : MonoBehaviour
     {
         score--;
         SetCountText();
-        
+
     }
     public void SetCountText()
     {
