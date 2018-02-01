@@ -5,19 +5,20 @@ using UnityEngine.UI;
 
 public class SetLives : MonoBehaviour
 { 
-    int score = 0;
+    int score;
+    int actualScore;
     public Text scoretext1;
     public Text scoretext2;
     public Text scoretext3;
     public Text scoretext4;
     public Text scoretext5;
     public Text scoretext6;
+    
 
     void Update()
     {
-        SetCountText();
+      
     }
-
     public void TwentyLives()
     {
         score = 20;
@@ -35,15 +36,15 @@ public class SetLives : MonoBehaviour
     }
     public void Plus()
     {
-        score += 1;
-        SetCountText();
+        score ++;
+        SetCountText(); 
     }
     public void Minus()
     {
-        score -= 1 ;
+        score --;
         SetCountText();
     }
-    void SetCountText()
+    public void SetCountText()
     {
         scoretext1.text = score.ToString();
         scoretext2.text = score.ToString();
