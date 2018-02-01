@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/3Player.unity
     guid: def1570f34617fd47816285922cf51fb
   - enabled: 1
-    path: Assets/Scenes/6Player.unity
-    guid: f5c893ef43c90544496eed63065a9dfb
-  - enabled: 1
     path: Assets/Scenes/4Player.unity
     guid: 1e950e7be2cb23147bb8f60bad27f94b
   - enabled: 1
     path: Assets/Scenes/5Player.unity
     guid: 1d66e5440b1f1b140bfb1073513824bc
+  - enabled: 1
+    path: Assets/Scenes/6Player.unity
+    guid: 39576c1713313e14f841dddff966629f
